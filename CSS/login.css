@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.sign-in {
+	display: flex;
+	justify-content: space-between;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	display: block;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+#btn {
+	display: inline;
+	width: 20%;
+	background-color: red;
+	color: aliceblue;
+	padding: 8px;
+	margin-top: 20px;
+}
+
+.sign-in-form p {
+	display: inline;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#btn-create-account {
+	width: 35%;
+	background-color: rgb(222, 13, 13);
+	color: aliceblue;
+	padding: 8px;
+}
+
+.create-account {
+	background-color: rgb(235, 232, 228);
+	width: 40%;
+	margin-right: 50px;
+	padding: 10px;
+}
+
+.sign-in-form {
+	width: 60%;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: 50px;
+	padding: 20px;
+	background-color: rgb(235, 232, 228);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.grid-item {
+	grid-row: 1 / 4;
+}
+
+#get-in-touch {
+	height: 40px;
+	width: 150px;
+	padding: 8px;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.grid-item a {
+	padding-right: 5px;
+}
