@@ -25,7 +25,81 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+/* ======== Navbar Section Start ======== */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+#navbar li {
+    list-style: none;
+    padding: 0 25px;
 
+    
+}
+#navbar a {
+    text-decoration: none;
+    background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    rgb(255, 0, 157),
+                    orange,
+                    red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+span {
+    padding: 10px;
+}
+.btns {
+    font-size: 20px;
+    font-weight: bold;
+}
+.m_color {
+    background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    rgb(255, 0, 157),
+                    orange,
+                    red);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .search-container button {
+    
+    padding: 3px;
+    margin-top: 12px;
+    margin-left: -21px;
+    background: #ddd;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    background: #ccc;
+  }
+/* ============= Navbar Section End ========== */
 
 /* ============= hero section start ========== */
 
